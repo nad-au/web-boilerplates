@@ -16,7 +16,7 @@ Clone `web-boilerplates` repository
 git clone https://github.com/neildobson-au/web-boilerplates.git
 ```
 
-Navigate to `eslint` folder
+Navigate to `boilerplate-eslint-prettier` folder
 
 ```
 cd web-boilerplates/boilerplate-eslint-prettier/
