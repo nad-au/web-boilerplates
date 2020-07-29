@@ -1,11 +1,15 @@
 # Web Boilerplates
+
 ## boilerplate-eslint-prettier - Basic linting & prettier code formatting support in VS Code
+
 ### Prerequisites
+
 1. VS Code (version >= `1.47`)
 2. `dbaeumer.vscode-eslint` ESLint plugin (version >= `2.1.8`)
 3. `esbenp.prettier-vscode` Prettier plugin (version >= `5.1.3` )
 
 ### Getting started
+
 Clone `web-boilerplates` repository
 
 ```
@@ -31,24 +35,27 @@ code .
 ```
 
 Edit `settings.json` to set:
+
 1. Enable auto-fixing lint errors on save.
 2. Set the editor's default formatter to prettier
 
-``` json
+```json
 {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 ```
 
 ### Testing
 
 Open `test.js` and inspect errors. Hit `ctrl-s` to save file and auto-fix linting errors.
+Open `index.html` and hit `ctrl-s` to format html.
 
 ### Template set-up
+
 The following describes the steps to generate this boilerplate template.
 
 Initialise project
@@ -85,7 +92,8 @@ npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 Add `plugin:prettier/recommended` as the last extension in `.eslintrc.js` file
 
 json:
-``` json
+
+```json
 module.exports = {
 
   extends: ['standard', 'plugin:prettier/recommended'],
