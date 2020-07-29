@@ -1,0 +1,30 @@
+{
+  "name": "boilerplate-eslint-prettier",
+  "version": "1.0.0",
+  "description": "Basic linting & prettier code formatting support in VS Code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neildobson-au/web-boilerplates.git"
+  },
+  "keywords": [],
+  "author": "Neil Dobson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neildobson-au/web-boilerplates/issues"
+  },
+  "homepage": "https://github.com/neildobson-au/web-boilerplates#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.5"
+  }
+}
