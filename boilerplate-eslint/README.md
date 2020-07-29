@@ -14,7 +14,7 @@ git clone https://github.com/neildobson-au/web-boilerplates.git
 Navigate to `eslint` folder
 
 ```
-cd .\web-boilerplates\boilerplate-eslint
+cd web-boilerplates/boilerplate-eslint/
 ```
 
 Install packages
@@ -39,6 +39,10 @@ Edit `settings.json` to enable auto-fixing lint errors on save.
     }
 }
 ```
+
+### Testing
+
+Open `test.js` and inspect errors. Hit `ctrl-s` to save file and auto-fix linting errors.
 
 ### Template set-up
 The following describes the steps to generate this boilerplate template.
