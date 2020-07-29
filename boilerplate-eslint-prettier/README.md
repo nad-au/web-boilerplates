@@ -91,10 +91,26 @@ npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 
 Add `plugin:prettier/recommended` as the last extension in `.eslintrc.js` file
 
-```json
+```javascript
 module.exports = {
 
-  "extends": ["standard", "plugin:prettier/recommended"],
+  extends: ['standard', 'plugin:prettier/recommended'],
 
 };
+```
+
+Create `.prettierrc` file
+
+```
+touch .prettierrc
+```
+
+Add default settings
+
+``` json
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true
+}
 ```
