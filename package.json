@@ -1,0 +1,20 @@
+{
+  "name": "web-boilerplates",
+  "version": "1.0.0",
+  "description": "Boilerplate web projects to quickly get you started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neildobson-au/web-boilerplates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neildobson-au/web-boilerplates/issues"
+  },
+  "homepage": "https://github.com/neildobson-au/web-boilerplates#readme"
+}
