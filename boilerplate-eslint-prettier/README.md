@@ -51,7 +51,7 @@ Edit `settings.json` to set:
 
 ### Testing
 
-Open `test.js` and inspect errors. Hit `ctrl-s` to save file and auto-fix linting errors.
+Open `test.js` and inspect errors. Hit `ctrl-s` to save file and auto-fix linting errors. \
 Open `index.html` and hit `ctrl-s` to format html.
 
 ### Template set-up
@@ -91,12 +91,10 @@ npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 
 Add `plugin:prettier/recommended` as the last extension in `.eslintrc.js` file
 
-json:
-
 ```json
 module.exports = {
 
-  extends: ['standard', 'plugin:prettier/recommended'],
+  extends: ["standard", "plugin:prettier/recommended"],
 
 };
 ```
