@@ -1,0 +1,37 @@
+{
+  "name": "boilerplate-tailwind",
+  "version": "1.0.0",
+  "description": "Static HTML with Tailwind CSS",
+  "scripts": {
+    "build": "postcss styles.css -o output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neildobson-au/web-boilerplates.git"
+  },
+  "keywords": [],
+  "author": "Neil Dobson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neildobson-au/web-boilerplates/issues"
+  },
+  "homepage": "https://github.com/neildobson-au/web-boilerplates#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "@tailwindcss/ui": "^0.4.0",
+    "autoprefixer": "^9.8.5",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.6.0"
+  }
+}
