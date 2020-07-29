@@ -94,7 +94,7 @@ Add `plugin:prettier/recommended` as the last extension in `.eslintrc.js` file
 ```json
 module.exports = {
 
-  extends: ["standard", "plugin:prettier/recommended"],
+  "extends": ["standard", "plugin:prettier/recommended"],
 
 };
 ```
